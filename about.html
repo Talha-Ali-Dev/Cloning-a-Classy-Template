@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>lorolabs.X80</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/x-icon" href="/assets/logo-nav.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="form-overlay-parent p-0 m-0">
+        <div class="form-overlay d-flex justify-content-center align-items-center">
+
+            <div class="form">
+                <div class="form-close">
+                    <i class="bi bi-x form-close-btn"></i>
+                </div>
+
+                <h2 class="form-heading">
+                    Talk to the studio
+                </h2>
+                <p class="form-para">
+                    Tell us what you need and we'll respond within 24 hours.
+                </p>
+
+                <div class="name-email d-flex justify-content-start gap-3 mb-3">
+                    <div class="d-flex flex-column gap-1">
+                        <label for="name">Name *</label>
+                        <input type="text" name="name" id="name" placeholder="Your name">
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label for="email">Email *</label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                    </div>
+
+                </div>
+
+                <div class="company-phone d-flex justify-content-start gap-3 mb-3">
+                    <div class="d-flex flex-column gap-1">
+                        <label for="companyname">Company</label>
+                        <input type="text" name="companyname" id="companyname" placeholder="Company name">
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label for="phone">Phone</label>
+                        <input type="number" name="phone" id="phone" placeholder="Your phone number">
+                    </div>
+
+                </div>
+
+                <div class="project-budget d-flex justify-content-start gap-3 mb-3">
+                    <div class="d-flex flex-column gap-1">
+                        <label for="project">Project type</label>
+                        <select name="projecttype" id="projecttype">
+                            <option value="" disabled selected>Select type</option>
+                            <option value="website">Website</option>
+                            <option value="ecommerce">E-Commerce</option>
+                            <option value="mobileapp">Mobile App</option>
+                            <option value="platform">Platform / Portal</option>
+                            <option value="mediacontent">AI Media & Content</option>
+                            <option value="branding">Branding</option>
+                            <option value="consultation">IT Consulting</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label for="range">Budget Range (php)</label>
+                        <select name="projecttype" id="projecttype">
+                            <option value="" disabled selected>Select range</option>
+                            <option value="website">Website</option>
+                            <option value="ecommerce">E-Commerce</option>
+                            <option value="mobileapp">Mobile App</option>
+                            <option value="platform">Platform / Portal</option>
+                            <option value="mediacontent">AI Media & Content</option>
+                            <option value="branding">Branding</option>
+                            <option value="consultation">IT Consulting</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="message-comment mb-3">
+                    <div class="d-flex flex-column gap-1">
+                        <label for="message">Message</label>
+                        <textarea name="comment" id="comment" rows="3"
+                            placeholder="Brief description of you project"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="agree-checkbox d-flex justify-content-start gap-3 mb-3">
+                    <div class="d-flex justify-content-center align-items-start gap-1">
+                        <input type="checkbox" name="checkbox" id="checkbox" class="mt-1">
+                        <p class="form-agree-note">I agree to the Privacy Policy and Terms and Conditions. My data will
+                            be
+                            used to respond to this
+                            inquiry.</p>
+                    </div>
+
+                </div>
+
+                <div class="form-submit-button mb-3">
+                    <button class="form-btn" type="submit">Send Inquiry</button>
+                </div>
+
+                <div class="final-msg d-flex justify-content-center align-items-center">
+                    <p> We respond within 24 hours · No spam, ever</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+      <div class="hamburger-wrapper">
+        <div class="hamburger-block">
+
+            <div class="container">
+
+                <div class="hamburger-close">
+                    <i class="bi bi-x ham-close-btn"></i>
+                </div>
+
+                <div class="menu-items">
+                    <div class="row d-flex justify-content-center align-items-center">
+
+                        <div class="menu-items-images col-md-4">
+                            <img src="assets/menu-home.webp" alt="" class="ham-images-invi hamburger-menu-home-img">
+                            <img src="assets/about-hero-v2.webp" alt=""
+                                class="ham-images-invi hamburger-menu-about-img">
+                            <img src="assets/menu-portfolio.webp" alt=""
+                                class="ham-images-invi hamburger-menu-portfolio-img">
+                            <img src="assets/menu-case-studies.webp" alt=""
+                                class="ham-images-invi hamburger-menu-case-studies-img">
+                            <img src="assets/hero-studio-desktop-v1.webp" alt=""
+                                class="ham-images-invi hamburger-menu-demo-img">
+                            <img src="assets/menu-contact.webp" alt=""
+                                class="ham-images-invi hamburger-menu-contact-img">
+                        </div>
+
+                        <div class="menu-items-list col-md-8">
+
+                            <div class="home ham-menu-items-list">
+                                <span>01</span>
+                                <span>
+                                    <a href="./index.html" class="hamburger-menu-home ham-menu-list">Home</a>
+                                </span>
+                            </div>
+
+                            <div class="about ham-menu-items-list">
+                                <span>02</span>
+                                <span>
+                                    <a href="./about.html" class="hamburger-menu-about ham-menu-list">About</a>
+                                </span>
+                            </div>
+
+                            <div class="portfolio ham-menu-items-list">
+                                <span>03</span>
+                                <span>
+                                    <a href="./portfolio.html" class="hamburger-menu-portfolio ham-menu-list">Portfolio</a>
+                                </span>
+                            </div>
+
+                            <div class="case-studies ham-menu-items-list">
+                                <span>04</span>
+                                <span>
+                                    <a href="./case-studies.html" class="hamburger-menu-case-studies ham-menu-list">Case
+                                        Studies</a>
+                                </span>
+                            </div>
+
+                            <div class="demo ham-menu-items-list">
+                                <span>05</span>
+                                <span>
+                                    <a href="./demo.html" class="hamburger-menu-demo ham-menu-list">Demo</a>
+                                </span>
+                            </div>
+
+                            <div class="contact ham-menu-items-list">
+                                <span>06</span>
+                                <span>
+                                    <a href="./contact.html" class="hamburger-menu-contact ham-menu-list">Contact</a>
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 hamburger-footer">
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <div>
+                                    <div class="mb-2 "> <a href="" class="ham-contact-links">info@lorolabs.ai</a></div>
+                                    <div class="mb-2"> <a href="" class="ham-contact-links">+63 960 277 8783</a></div>
+
+                                    <div class="d-flex gap-2">
+                                        <i class="bi bi-facebook ham-icons"></i>
+                                        <i class="bi bi-instagram ham-icons"></i>
+                                        <i class="bi bi-tiktok ham-icons"></i>
+                                        <i class="bi bi-linkedin ham-icons"></i>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <button class="ham-btn" type="submit">
+                                        <span>Talk to the studio </span>
+                                        <span><i class="bi bi-arrow-up-right ham-btn-arrow"></i></span>
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="header"></div>
+
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="container-fluid p-3 about-hero d-flex justify-content-center align-items-center">
+
+            <div class=" px-2 px-lg-5 container">
+
+                <div class="col-md-10 d-flex flex-column justify-content-center align-items-start gap-4 px-0 px-lg-5">
+                    <p class="about-main-uppercase mb-0 animate fade-up">
+                        About us
+                    </p>
+                    <h1 class="animate fade-up mb-0">We design and engineer custom
+                        websites for ambitious brands.</h1>
+                    <p class=" mb-0 animate fade-up delay-1">
+                        We started with a simple belief: performance and design shouldn't be a trade-off. Today, Loro
+                        Labs is an Astro-native design engineering studio based in Quezon City, Philippines. We combine
+                        premium aesthetics with blazing-fast performance, delivered from our studio to ambitious brands
+                        across Asia-Pacific. Every project is handled in-house, every line of code is ours, and every
+                        client gets our full attention.
+                    </p>
+                    <div class="hero-main-buttons d-flex flex-row gap-3 animate fade-up delay-2">
+                        <button class="ham-btn" type="submit">
+                            <span>Talk to the studio </span>
+                            <span><i class="bi bi-arrow-up-right ham-btn-arrow"></i></span>
+                        </button>
+                        <button class="hero-main-btn-transparent">See Our Work</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Parallax section -->
+        <section class="container-fluid scale-image mb-5" data-bg="assets/about-hero-v22.webp">
+
+        </section>
+
+        <!-- Testimonial copy -->
+
+        <section class="container testimonial mb-5 text-start p-2 p-lg-5">
+
+            <div class="row container px-0 px-lg-5 g-4">
+
+                <div class="col-12">
+
+                    <p class="about-main-uppercase mb-2 animate fade-up">
+                        Our Values
+                    </p>
+                    <h2 class="animate fade-up delay-1">What drives us</h2>
+                    <p class="animate fade-up delay-2">Six principles that shape every project, every conversation,
+                        every line of code.</p>
+
+                </div>
+
+                <div class="col-md-4 animate fade-up delay-3">
+
+                    <div class=" text-start testimonial-boxes testimonial-boxes-about icon-box">
+                        <div class="colored-icon mb-2" data-bg="#f92c5315">
+                            <i class="bi bi-heart" data-color="#F92C53"></i>
+                        </div>
+                        <h3 class="about-testimonial">Empathy First</h3>
+                        <p>projects delivered for ambitious APAC teams</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 animate fade-up delay-3">
+
+                    <div class="text-start testimonial-boxes testimonial-boxes-about icon-box">
+                        <div class="colored-icon  mb-2" data-bg="#EEAB2115">
+                            <i class="bi bi-lightbulb" data-color="#EEAB21"></i>
+                        </div>
+                        <h3 class="about-testimonial">Empathy First</h3>
+                        <p>projects delivered for ambitious APAC teams</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 animate fade-up delay-3">
+
+                    <div class="text-start testimonial-boxes testimonial-boxes-about icon-box">
+                        <div class="colored-icon  mb-2" data-bg="#7C3AED15">
+                            <i class="bi bi-palette" data-color="#7C3AED"></i>
+                        </div>
+                        <h3 class="about-testimonial">Empathy First</h3>
+                        <p>projects delivered for ambitious APAC teams</p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 animate fade-up delay-3">
+
+                    <div class=" text-start testimonial-boxes testimonial-boxes-about icon-box">
+                        <div class="colored-icon  mb-2" data-bg="#2563EB15">
+                            <i class="bi bi-code-slash" data-color="#2563EB"></i>
+                        </div>
+                        <h3 class="about-testimonial">Empathy First</h3>
+                        <p>projects delivered for ambitious APAC teams</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 animate fade-up delay-3">
+
+
+                    <div class=" text-start testimonial-boxes testimonial-boxes-about icon-box">
+                        <div class="colored-icon  mb-2" data-bg="#DB277715">
+                            <i class="bi bi-stars" data-color="#DB2777"></i>
+                        </div>
+                        <h3 class="about-testimonial">Empathy First</h3>
+                        <p>projects delivered for ambitious APAC teams</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 animate fade-up delay-3">
+
+                    <div class=" text-start testimonial-boxes testimonial-boxes-about icon-box">
+                        <div class="colored-icon  mb-2" data-bg="#00C9A715">
+                            <i class="bi bi-globe2" data-color="#00C9A7"></i>
+                        </div>
+                        <h3 class="about-testimonial">Empathy First</h3>
+                        <p>projects delivered for ambitious APAC teams</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Full-stack creative tech -->
+        <section class="creative-tech container testimonial my-5 text-start p-2 p-lg-5">
+
+            <div class="px-2 px-lg-5 my-5">
+
+                <p class="about-main-uppercase mb-2 animate fade-up ">
+                    What We Do
+                </p>
+                <h2 class="animate fade-up ">Full-stack creative tech</h2>
+                <p class="animate fade-up delay-1">From landing pages to full platforms. Design, engineering, AI, and
+                    branding under one roof.</p>
+
+            </div>
+
+            <div class="stack-block container px-2 px-lg-5 g-4 my-5 animate fade-up delay-3">
+
+                <div class=" text-center stack-boxes icon-box">
+                    <div class="mb-2">
+                        <i class="bi bi-code-slash" data-color="#2563EB"></i>
+                    </div>
+                    <h3 class="about-testimonial">Websites</h3>
+                    <p class="mb-0">Landing pages to full e-commerce. Responsive, fast, and SEO-ready.</p>
+
+                </div>
+
+
+
+                <div class="text-center stack-boxes icon-box">
+                    <div class="mb-2">
+                        <i class="bi bi-phone" data-color="#C2410C"></i>
+                    </div>
+                    <h3 class="about-testimonial">Apps</h3>
+                    <p class="mb-0">Native and cross-platform mobile apps with polished UIs.</p>
+                </div>
+
+
+                <div class="text-center stack-boxes icon-box">
+                    <div class="mb-2">
+                        <i class="bi bi-hdd-stack" data-color="#DC2626"></i>
+                    </div>
+                    <h3 class="about-testimonial">Platforms</h3>
+                    <p class="mb-0">Custom portals, dashboards, and workflow systems.</p>
+
+                </div>
+
+
+                <div class=" text-center stack-boxes icon-box">
+                    <div class="mb-2">
+                        <i class="bi bi-stars" data-color="#DB2777"></i>
+                    </div>
+                    <h3 class="about-testimonial">AI Media</h3>
+                    <p class="mb-0">AI-generated photos, videos, and hero animations.</p>
+
+                </div>
+
+
+                <div class=" text-center stack-boxes icon-box">
+                    <div class="mb-2">
+                        <i class="bi bi-palette" data-color="#B45309"></i>
+                    </div>
+                    <h3 class="about-testimonial">Brand Identity</h3>
+                    <p class="mb-0">Logo, color, typography. Complete visual identity systems.</p>
+
+                </div>
+
+
+
+                <div class=" text-center stack-boxes icon-box">
+                    <div class="mb-2">
+                        <i class="bi bi-lightbulb" data-color="#7C3AED"></i>
+                    </div>
+                    <h3 class="about-testimonial">IT Consulting</h3>
+                    <p class="mb-0">Technology guidance, roadmaps, and architecture reviews.</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="img-grid container-fluid my-5 text-start p-2 p-lg-5">
+
+            <div class="container my-5 px-2 px-lg-5">
+                <div class="px-0 px-lg-5 mb-5">
+
+                    <p class="about-main-uppercase mb-2 animate fade-up">
+                        Our Space
+                    </p>
+                    <h2 class="animate fade-up">Where the magic happens</h2>
+                    <p class="animate fade-up delay-1">Our studio in Quezon City, where ideas become products.</p>
+
+                </div>
+
+                <div class="px-0 px-lg-5 row justify-content-center align-items-center g-3">
+
+                    <div class="col-md-7 animate fade-left delay-2">
+
+                        <div class="thumb about-thumb">
+                            <img src="assets/office-3-v2.webp" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-5 animate fade-right delay-2">
+
+                        <div class="thumb about-thumb">
+                            <img src="assets/office-2-v2.webp" alt="">
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-12 text-center mt-5 animate fade-up delay-2">
+
+                        <div class="location">
+                            <span><i class="bi bi-geo-alt"></i></span>
+                            <span> Unit 111 Spark Place, P. Tuazon Avenue cor. 10th Avenue, Araneta City, Cubao, Quezon
+                                City
+                                1109,
+                                Philippines</span>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Final section -->
+
+        <section class="container my-5 py-5">
+
+            <div class="container text-center d-flex flex-column gap-3 mb-2">
+
+                <h2 class="">Ready
+                    to
+                    start
+                    building?
+                </h2>
+                <p>
+                    Let’s talk about your project. No pressure, just a <span class="d-md-block">
+                        conversation about what’s possible.</span>
+                </p>
+
+                <div class=" text-center mt-3">
+                    <div class="spin-border">
+                        <button class="inner footer-btn">
+                            Talk to the studio
+                        </button>
+                    </div>
+                </div>
+
+                <div class="contact-info d-flex flex-column flex-lg-row justify-content-center align-items-center gap-4 mt-5">
+
+                    <div class="email">
+                        <span><i class="bi bi-envelope"></i></span>
+                        <span>info@lorolabs.ai</span>
+                    </div>
+
+                    <div class="phone">
+                        <span><i class="bi bi-telephone"></i></span>
+                        <span>+63 960 277 8783</span>
+                    </div>
+
+                    <div class="web">
+                        <span><i class="bi bi-globe"></i></span>
+                        <span>lorolabs.ai</span>
+                    </div>
+
+                </div>
+
+                <div class="location">
+                    <span><i class="bi bi-geo-alt"></i></span>
+                    <span> Unit 111 Spark Place, P. Tuazon Avenue cor. 10th Avenue, Araneta City, Cubao, Quezon City
+                        1109,
+                        Philippines</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <!-- Footer -->
+
+    <div id="footer"></div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.8/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="animation.js"></script>
+</body>
+
+</html>
