@@ -1,0 +1,950 @@
+/* =========================================================
+   PRICING PAGE
+   ========================================================= */
+
+.pricing-page {
+    overflow: hidden;
+    background: var(--main-background-color);
+}
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.pricing-hero {
+    padding: 160px 0 80px;
+    background-color: #fafafa;
+}
+
+.pricing-hero-inner {
+    /* max-width: 900px; */
+    margin: 0 auto;
+}
+
+.pricing-hero .about-main-uppercase,
+.pricing-eyebrow {
+    /* margin-bottom: 18px; */
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.pricing-eyebrow {
+    color: var(--body-text-color);
+}
+
+.pricing-eyebrow-less-gap {
+    margin-bottom: 0;
+}
+
+.pricing-main-heading {
+    margin: 0;
+    font-family: "Comfortaa", sans-serif;
+    font-size: clamp(48px, 6vw, 60px);
+    line-height: 1.02;
+    letter-spacing: -3px;
+    font-weight: 700;
+}
+
+.pricing-main-heading span {
+    /* display: block; */
+}
+
+.pricing-main-description {
+    max-width: 690px;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--body-text-color);
+}
+
+
+/* =========================================================
+   PRODUCT SECTION
+   ========================================================= */
+
+.pricing-product-section {
+    padding: 100px 0;
+}
+
+.pricing-product-header {
+    max-width: 780px;
+    margin-bottom: 50px;
+}
+
+.pricing-product-header h2,
+.pricing-sync-content h2,
+.pricing-handover h2,
+.pricing-faq-heading h2,
+.pricing-final-cta h2 {
+    margin: 0;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: clamp(48px, 4.5vw, 36px);
+    line-height: 1.08;
+    letter-spacing: -2px;
+}
+
+.pricing-product-header>div>p:last-child {
+    max-width: 650px;
+    margin: 25px 0 0;
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--body-text-color);
+}
+
+
+/* =========================================================
+   PRICING CARDS
+   ========================================================= */
+
+.pricing-plans-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.pricing-plan-card {
+    /* min-height: 430px; */
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    border-radius: 12px;
+    background: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-shadow:
+        0 12px 40px rgba(0, 0, 0, 0.035);
+
+    transition:
+        transform 0.45s cubic-bezier(0.2, 0.8, 0.2, 1),
+        box-shadow 0.45s ease,
+        border-color 0.45s ease;
+}
+
+.pricing-plan-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(0, 0, 0, 0.16);
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, 0.09);
+}
+
+.pricing-featured {
+    background: #fff;
+    border-color: #111;
+}
+
+.pricing-featured:hover {
+    border-color: #111;
+}
+
+.pricing-plan-label {
+    display: inline-flex;
+    align-items: center;
+
+    width: fit-content;
+
+    padding: 6px 13px;
+
+    border-radius: 50px;
+
+    background: rgba(0, 0, 0, 0.06);
+
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.pricing-featured .pricing-plan-label {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.pricing-plan-card h3 {
+    margin: 10px 0 30px;
+
+    font-family: "Comfortaa", sans-serif;
+
+    font-size: 20px;
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+.pricing-amount {
+    font-family: "Comfortaa", sans-serif;
+    font-size: clamp(36px, 5vw, 25px);
+    font-weight: 700;
+    line-height: 1;
+    /* letter-spacing: -3px; */
+}
+
+.pricing-period {
+    margin: 18px 0 0;
+
+    font-size: 14px;
+    line-height: 1.6;
+
+    opacity: 0.7;
+}
+
+.pricing-period-less-gap {
+    margin-top: 10px;
+}
+
+.pricing-saving {
+    margin: 15px 0 0;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.pricing-saving-less-gap {
+    margin-top: 20px;
+}
+
+.pricing-total {
+    margin: 15px 0 0;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   BUTTON
+   ========================================================= */
+
+.pricing-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+
+    padding: 12px 18px;
+
+    border-radius: 20px;
+
+    background: #05060a;
+    color: #fff;
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    transition:
+        transform 0.35s ease,
+        background 0.35s ease;
+    margin-top: 20px;
+}
+
+.pricing-button:hover {
+    color: #fff;
+    transform: translateY(-2px);
+    background: #05060a;
+}
+
+.pricing-button i {
+    transition: transform 0.35s ease;
+}
+
+.pricing-button:hover i {
+    transform: translate(3px, -3px);
+}
+
+.pricing-featured .pricing-button {
+    background: #05060a;
+    color: #fff;
+}
+
+.pricing-featured .pricing-button:hover {
+    background: #05060a;
+    color: #fff;
+}
+
+.pricing-button-outline {
+    background: #05060a;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.pricing-button-outline:hover {
+    background: #111;
+    color: #fff;
+}
+
+
+/* =========================================================
+   INCLUDED
+   ========================================================= */
+
+.pricing-included {
+    margin-top: 50px;
+    padding: 20px 30px 20px 30px;
+
+    border-radius: 12px;
+
+    background: #fff;
+
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.pricing-included-heading {
+    max-width: 650px;
+}
+
+.pricing-included-heading h3 {
+    margin: 0;
+
+    font-family: "Comfortaa", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.pricing-included-heading>p:last-child {
+    margin: 8px 0 0;
+    color: var(--body-text-color);
+    font-size: 14px;
+}
+
+.pricing-features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    margin-top: 20px;
+
+    border-top: 1px solid rgba(0, 0, 0, 0.027);
+}
+
+.pricing-features-grid-less-gap {
+    margin-top: 20px;
+}
+
+.pricing-feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+
+    padding: 15px 0 15px 0;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.027);
+
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.pricing-feature i {
+    flex-shrink: 0;
+
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background: #111;
+    color: #fff;
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.pricing-feature span {
+    font-size: 14px;
+    color: var(--body-text-color);
+
+}
+
+.pricing-note {
+    margin: 14px 0 0;
+
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--body-text-color);
+}
+
+.pricing-note-less-gap {
+    margin-top: 5px;
+}
+
+
+/* =========================================================
+   SPARK
+   ========================================================= */
+
+.pricing-spark-section {
+    background: #fafafa;
+}
+
+
+/* =========================================================
+   SYNC
+   ========================================================= */
+
+.pricing-sync-section {
+    padding: 120px 0;
+    /* background: #111;
+    color: #fff; */
+}
+
+.pricing-sync-wrapper {
+    gap: 70px;
+}
+
+.pricing-sync-content {
+    align-self: center;
+}
+
+.pricing-sync-description {
+    max-width: 570px;
+
+    margin-top: 25px;
+
+    font-size: 18px;
+    line-height: 1.7;
+
+    opacity: 0.65;
+}
+
+.pricing-sync-section .pricing-eyebrow {
+    color: var(--body-text-color);
+}
+
+.pricing-blueprint-card {
+    padding: 42px;
+
+    border-radius: 25px;
+
+    background: #fff;
+    color: #111;
+
+    transition:
+        transform 0.45s ease,
+        box-shadow 0.45s ease;
+}
+
+.pricing-blueprint-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 30px 70px rgba(0, 0, 0, 0.25);
+}
+
+.pricing-blueprint-card h3 {
+    margin: 25px 0 20px;
+
+    font-family: "Comfortaa", sans-serif;
+    font-size: 32px;
+}
+
+.pricing-blueprint-card>p {
+    margin: 20px 0 30px;
+
+    color: #555;
+
+    line-height: 1.7;
+}
+
+.pricing-blueprint-details {
+    /* grid-column: 1 / -1; */
+
+    margin-top: 20px;
+
+    padding-top: 70px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.pricing-blueprint-details h3 {
+    margin: 0;
+
+    font-family: "Comfortaa", sans-serif;
+    font-size: 36px;
+}
+
+.pricing-blueprint-details>div:first-child>p:last-child {
+    margin-top: 15px;
+    opacity: 0.6;
+}
+
+.pricing-blueprint-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    margin-top: 45px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.pricing-blueprint-list>div {
+    display: flex;
+    gap: 15px;
+
+    padding: 25px 20px 25px 0;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.pricing-blueprint-list span {
+    font-size: 11px;
+    opacity: 0.4;
+}
+
+.pricing-blueprint-list p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.pricing-sync-section .pricing-note,
+.pricing-small-note {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+
+/* =========================================================
+   HANDOVER
+   ========================================================= */
+
+.pricing-handover-section {
+    padding: 90px 0;
+    background-color: #05060a;
+}
+
+.pricing-handover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 70px; */
+
+    /* padding: 65px; */
+
+    border-radius: 28px;
+
+    /* background: #fff; */
+
+    border: 1px solid rgba(0, 0, 0, 0.08);
+
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.045);
+}
+
+.pricing-handover h2 {
+    /* max-width: 520px; */
+}
+
+.pricing-handover-price {
+    align-self: center;
+    padding: 20px;
+    background-color: #ffffff0f;
+    border: 1px solid #ffffff1a;
+    border-radius: 12px;
+}
+
+.pricing-handover-price>span {
+    font-family: "Comfortaa", sans-serif;
+
+    font-size: clamp(36px, 5vw, 36px);
+
+    font-weight: 700;
+
+    letter-spacing: -3px;
+}
+
+.pricing-handover-price p {
+    /* max-width: 300px; */
+
+    margin-top: 15px;
+
+    font-size: 14px;
+    line-height: 1.6;
+
+    color: var(--body-text-color);
+}
+
+.pricing-handover-info {
+    grid-column: 1 / -1;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+
+    padding-top: 30px;
+
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.pricing-handover-info p {
+    margin: 0;
+
+    font-size: 15px;
+    line-height: 1.7;
+
+    color: var(--body-text-color);
+}
+
+
+/* =========================================================
+   FAQ
+   ========================================================= */
+
+.pricing-faq-section {
+    padding: 110px 0;
+    background: #f0f0f0;
+}
+
+.pricing-faq-heading {
+    max-width: 760px;
+    margin-bottom: 10px;
+}
+
+.pricing-faq-heading h2 span {
+    display: block;
+}
+
+.pricing-faq-heading>p:last-child {
+    margin-top: 20px;
+
+    font-size: 16px;
+    line-height: 1.7;
+
+    color: var(--body-text-color);
+}
+
+.pricing-faq-list {
+    /* max-width: 1000px; */
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #e3e0de4d;
+    border-radius: 12px;
+}
+
+.pricing-faq-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.027);
+}
+
+.pricing-faq-item:last-child {
+    border-bottom: none;
+}
+
+.pricing-faq-question {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 30px;
+
+    padding: 15px 0;
+
+    border: 0;
+    background: transparent;
+
+    text-align: left;
+
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    color: #39332d;
+}
+
+.pricing-faq-question i {
+    flex-shrink: 0;
+
+    font-size: 20px;
+
+    transition:
+        transform 0.4s ease;
+}
+
+.pricing-faq-item.active .pricing-faq-question i {
+    transform: rotate(45deg);
+}
+
+.pricing-faq-answer {
+    display: grid;
+    grid-template-rows: 0fr;
+
+    transition:
+        grid-template-rows 0.45s ease;
+}
+
+.pricing-faq-answer p {
+    min-height: 0;
+    overflow: hidden;
+
+    margin: 0;
+
+    max-width: 850px;
+
+    font-size: 15px;
+    line-height: 1.8;
+
+    color: var(--body-text-color);
+
+    opacity: 0;
+
+    transition:
+        opacity 0.35s ease,
+        padding-bottom 0.45s ease;
+}
+
+.pricing-faq-item.active .pricing-faq-answer {
+    grid-template-rows: 1fr;
+}
+
+.pricing-faq-item.active .pricing-faq-answer p {
+    padding-bottom: 30px;
+    opacity: 1;
+}
+
+
+/* =========================================================
+   FINAL CTA
+   ========================================================= */
+
+.pricing-final-cta {
+    padding: 140px 0;
+}
+
+.pricing-final-cta-inner {
+    max-width: 850px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.pricing-final-cta h2 span {
+    display: block;
+}
+
+.pricing-final-cta p:not(.pricing-eyebrow) {
+    max-width: 600px;
+
+    margin: 25px auto 35px;
+
+    font-size: 17px;
+    line-height: 1.7;
+
+    color: var(--body-text-color);
+}
+
+.pricing-final-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+
+    padding: 17px 23px;
+
+    border: 0;
+    border-radius: 50px;
+
+    background: #111;
+    color: #fff;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.35s ease,
+        background 0.35s ease;
+}
+
+.pricing-final-button:hover {
+    transform: translateY(-3px);
+    background: #292929;
+}
+
+.pricing-final-button i {
+    transition: transform 0.35s ease;
+}
+
+.pricing-final-button:hover i {
+    transform: translate(3px, -3px);
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 991px) {
+
+    .pricing-hero {
+        padding: 150px 0 80px;
+    }
+
+    .pricing-product-section {
+        padding: 80px 0;
+    }
+
+    .pricing-sync-wrapper {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .pricing-blueprint-details {
+        grid-column: auto;
+    }
+
+    .pricing-blueprint-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pricing-handover {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .pricing-handover-price {
+        align-self: start;
+    }
+
+    .pricing-handover-info {
+        grid-column: auto;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .pricing-hero {
+        padding: 120px 0 70px;
+    }
+
+    .pricing-main-heading {
+        font-size: 45px;
+        letter-spacing: -2px;
+    }
+
+    .pricing-main-description {
+        font-size: 16px;
+    }
+
+    .pricing-product-section {
+        padding: 70px 0;
+    }
+
+    .pricing-product-header h2,
+    .pricing-sync-content h2,
+    .pricing-handover h2,
+    .pricing-faq-heading h2,
+    .pricing-final-cta h2 {
+        font-size: 30px;
+        letter-spacing: -1.5px;
+    }
+
+    .pricing-plans-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-plan-card {
+        min-height: 390px;
+        padding: 30px;
+    }
+
+    .pricing-included {
+        padding: 30px;
+    }
+
+    .pricing-features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-feature {
+        padding-right: 0;
+    }
+
+    .pricing-sync-section {
+        padding: 80px 0;
+    }
+
+    .pricing-blueprint-card {
+        padding: 30px;
+    }
+
+    .pricing-blueprint-list {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-handover-section {
+        padding: 80px 0;
+    }
+
+    .pricing-handover {
+        padding: 30px;
+    }
+
+    .pricing-handover-info {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-faq-section {
+        padding: 80px 0;
+    }
+
+    .pricing-faq-heading {
+        margin-bottom: 45px;
+    }
+
+    .pricing-final-cta {
+        padding: 90px 0;
+    }
+
+    .pricing-final-button {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .pricing-final-cta h2 span {
+        display: inline;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .pricing-main-heading {
+        font-size: 38px;
+    }
+
+    .pricing-plan-card {
+        padding: 25px;
+    }
+
+    .pricing-amount {
+        font-size: 25px;
+    }
+
+    .pricing-included {
+        padding: 25px;
+    }
+
+    .pricing-blueprint-card {
+        padding: 25px;
+    }
+
+    .pricing-handover {
+        padding: 25px;
+    }
+
+    .pricing-faq-question {
+        font-size: 15px;
+        gap: 15px;
+    }
+
+}

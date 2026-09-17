@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>LoroLabs Portfolio</title>
+
+    <link rel="icon" type="image/x-icon" href="/assets/logo-nav.webp">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Your existing fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Your existing stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Portfolio-specific CSS -->
+    <link rel="stylesheet" href="portfolio.css">
+
+</head>
+
+
+<body>
+
+    <!-- Form  -->
+    <div class="form-overlay-parent p-0 m-0">
+        <div class="form-overlay d-flex justify-content-center align-items-center">
+
+            <div class="form">
+                <div class="form-close">
+                    <i class="bi bi-x form-close-btn"></i>
+                </div>
+
+                <h2 class="form-heading">
+                    Talk to the studio
+                </h2>
+                <p class="form-para">
+                    Tell us what you need and we'll respond within 24 hours.
+                </p>
+
+                <div class="name-email d-flex justify-content-start gap-3 mb-3">
+                    <div class="d-flex flex-column gap-1">
+                        <label for="name">Name *</label>
+                        <input type="text" name="name" id="name" placeholder="Your name">
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label for="email">Email *</label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                    </div>
+
+                </div>
+
+                <div class="company-phone d-flex justify-content-start gap-3 mb-3">
+                    <div class="d-flex flex-column gap-1">
+                        <label for="companyname">Company</label>
+                        <input type="text" name="companyname" id="companyname" placeholder="Company name">
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label for="phone">Phone</label>
+                        <input type="number" name="phone" id="phone" placeholder="Your phone number">
+                    </div>
+
+                </div>
+
+                <div class="project-budget d-flex justify-content-start gap-3 mb-3">
+                    <div class="d-flex flex-column gap-1">
+                        <label for="project">Project type</label>
+                        <select name="projecttype" id="projecttype">
+                            <option value="" disabled selected>Select type</option>
+                            <option value="website">Website</option>
+                            <option value="ecommerce">E-Commerce</option>
+                            <option value="mobileapp">Mobile App</option>
+                            <option value="platform">Platform / Portal</option>
+                            <option value="mediacontent">AI Media & Content</option>
+                            <option value="branding">Branding</option>
+                            <option value="consultation">IT Consulting</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label for="range">Budget Range (php)</label>
+                        <select name="projecttype" id="projecttype">
+                            <option value="" disabled selected>Select range</option>
+                            <option value="website">Website</option>
+                            <option value="ecommerce">E-Commerce</option>
+                            <option value="mobileapp">Mobile App</option>
+                            <option value="platform">Platform / Portal</option>
+                            <option value="mediacontent">AI Media & Content</option>
+                            <option value="branding">Branding</option>
+                            <option value="consultation">IT Consulting</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="message-comment mb-3">
+                    <div class="d-flex flex-column gap-1">
+                        <label for="message">Message</label>
+                        <textarea name="comment" id="comment" rows="3"
+                            placeholder="Brief description of you project"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="agree-checkbox d-flex justify-content-start gap-3 mb-3">
+                    <div class="d-flex justify-content-center align-items-start gap-1">
+                        <input type="checkbox" name="checkbox" id="checkbox" class="mt-1">
+                        <p class="form-agree-note">I agree to the Privacy Policy and Terms and Conditions. My data will
+                            be
+                            used to respond to this
+                            inquiry.</p>
+                    </div>
+
+                </div>
+
+                <div class="form-submit-button mb-3">
+                    <button class="form-btn" type="submit">Send Inquiry</button>
+                </div>
+
+                <div class="final-msg d-flex justify-content-center align-items-center">
+                    <p> We respond within 24 hours · No spam, ever</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- hamburger  -->
+    <div class="hamburger-wrapper">
+        <div class="hamburger-block">
+
+            <div class="container">
+
+                <div class="hamburger-close">
+                    <i class="bi bi-x ham-close-btn"></i>
+                </div>
+
+                <div class="menu-items">
+                    <div class="row d-flex justify-content-center align-items-center">
+
+                        <div class="menu-items-images col-md-4">
+                            <img src="assets/menu-home.webp" alt="" class="ham-images-invi hamburger-menu-home-img">
+                            <img src="assets/about-hero-v2.webp" alt=""
+                                class="ham-images-invi hamburger-menu-about-img">
+                            <img src="assets/menu-portfolio.webp" alt=""
+                                class="ham-images-invi hamburger-menu-portfolio-img">
+                            <img src="assets/menu-case-studies.webp" alt=""
+                                class="ham-images-invi hamburger-menu-case-studies-img">
+                            <img src="assets/hero-studio-desktop-v1.webp" alt=""
+                                class="ham-images-invi hamburger-menu-demo-img">
+                            <img src="assets/menu-contact.webp" alt=""
+                                class="ham-images-invi hamburger-menu-contact-img">
+                        </div>
+
+                        <div class="menu-items-list col-md-8">
+
+                            <div class="home ham-menu-items-list">
+                                <span>01</span>
+                                <span>
+                                    <a href="./index.html" class="hamburger-menu-home ham-menu-list">Home</a>
+                                </span>
+                            </div>
+
+                            <div class="about ham-menu-items-list">
+                                <span>02</span>
+                                <span>
+                                    <a href="./about.html" class="hamburger-menu-about ham-menu-list">About</a>
+                                </span>
+                            </div>
+
+                            <div class="portfolio ham-menu-items-list">
+                                <span>03</span>
+                                <span>
+                                    <a href="./portfolio.html"
+                                        class="hamburger-menu-portfolio ham-menu-list">Portfolio</a>
+                                </span>
+                            </div>
+
+                            <div class="case-studies ham-menu-items-list">
+                                <span>04</span>
+                                <span>
+                                    <a href="./case-studies.html" class="hamburger-menu-case-studies ham-menu-list">Case
+                                        Studies</a>
+                                </span>
+                            </div>
+
+                            <div class="demo ham-menu-items-list">
+                                <span>05</span>
+                                <span>
+                                    <a href="./demo.html" class="hamburger-menu-demo ham-menu-list">Demo</a>
+                                </span>
+                            </div>
+
+                            <div class="contact ham-menu-items-list">
+                                <span>06</span>
+                                <span>
+                                    <a href="./contact.html" class="hamburger-menu-contact ham-menu-list">Contact</a>
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 hamburger-footer">
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <div>
+                                    <div class="mb-2 "> <a href="" class="ham-contact-links">info@lorolabs.ai</a></div>
+                                    <div class="mb-2"> <a href="" class="ham-contact-links">+63 960 277 8783</a></div>
+
+                                    <div class="d-flex gap-2">
+                                        <i class="bi bi-facebook ham-icons"></i>
+                                        <i class="bi bi-instagram ham-icons"></i>
+                                        <i class="bi bi-tiktok ham-icons"></i>
+                                        <i class="bi bi-linkedin ham-icons"></i>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <button class="ham-btn" type="submit">
+                                        <span>Talk to the studio </span>
+                                        <span><i class="bi bi-arrow-up-right ham-btn-arrow"></i></span>
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="portfolio-header">
+
+        <div class="portfolio-home-btn-block-left">
+            <a href="/index.html">
+                <button class="portfolio-home-btn">
+                    <span>
+                        <i class="bi bi-arrow-left-short"></i>
+                    </span>
+                    <span>
+                        Back to Home
+                    </span>
+                </button>
+            </a>
+        </div>
+
+        <div class="portfolio-home-btn-block-right">
+            <button class="portfolio-home-btn open-form-btn portfolio-mobile-none">
+
+                <span>
+                    Get Quote
+                </span>
+                <span>
+                    <i class="bi bi-arrow-right-short popup-form-opener"></i>
+                </span>
+
+            </button>
+
+            <button class="portfolio-home-btn hamburger-portfolio-btn">
+
+                <span class="main-logo main-logo-portfolio">
+                    <img src="assets/logo-nav.webp" alt="" height="30" width="30">
+                </span>
+                <span>
+                    Menu
+                </span>
+                <span class="navigation-hamburger portfolio-hamburger">
+                    <i class="bi bi-list"></i>
+                </span>
+
+            </button>
+        </div>
+
+    </div>
+
+
+    <!-- ============================================
+         PORTFOLIO
+    ============================================ -->
+
+    <main class="portfolio-page">
+
+        <section class="portfolio-wall">
+
+            <div class="portfolio-grid" id="portfolioGrid">
+
+                <!-- Images are injected by JavaScript -->
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Your existing libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+
+
+    <!-- Your existing JS -->
+    <script src="script.js"></script>
+
+    <!-- Portfolio JS -->
+    <script src="portfolio.js"></script>
+
+</body>
+
+</html>

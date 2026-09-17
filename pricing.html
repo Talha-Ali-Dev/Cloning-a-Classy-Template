@@ -1,0 +1,1184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>lorolabs.X80</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/x-icon" href="/assets/logo-nav.webp">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pricing.css">
+</head>
+
+<body>
+
+    <div class="form-overlay-parent p-0 m-0">
+        <div class="form-overlay d-flex justify-content-center align-items-center">
+
+            <div class="form">
+                <div class="form-close">
+                    <i class="bi bi-x form-close-btn"></i>
+                </div>
+
+                <h2 class="form-heading">
+                    Talk to the studio
+                </h2>
+                <p class="form-para">
+                    Tell us what you need and we'll respond within 24 hours.
+                </p>
+
+                <div class="name-email d-flex justify-content-start gap-3 mb-3">
+                    <div class="d-flex flex-column gap-1">
+                        <label for="name">Name *</label>
+                        <input type="text" name="name" id="name" placeholder="Your name">
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label for="email">Email *</label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                    </div>
+
+                </div>
+
+                <div class="company-phone d-flex justify-content-start gap-3 mb-3">
+                    <div class="d-flex flex-column gap-1">
+                        <label for="companyname">Company</label>
+                        <input type="text" name="companyname" id="companyname" placeholder="Company name">
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label for="phone">Phone</label>
+                        <input type="number" name="phone" id="phone" placeholder="Your phone number">
+                    </div>
+
+                </div>
+
+                <div class="project-budget d-flex justify-content-start gap-3 mb-3">
+                    <div class="d-flex flex-column gap-1">
+                        <label for="project">Project type</label>
+                        <select name="projecttype" id="projecttype">
+                            <option value="" disabled selected>Select type</option>
+                            <option value="website">Website</option>
+                            <option value="ecommerce">E-Commerce</option>
+                            <option value="mobileapp">Mobile App</option>
+                            <option value="platform">Platform / Portal</option>
+                            <option value="mediacontent">AI Media & Content</option>
+                            <option value="branding">Branding</option>
+                            <option value="consultation">IT Consulting</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <label for="range">Budget Range (php)</label>
+                        <select name="projecttype" id="projecttype">
+                            <option value="" disabled selected>Select range</option>
+                            <option value="website">Website</option>
+                            <option value="ecommerce">E-Commerce</option>
+                            <option value="mobileapp">Mobile App</option>
+                            <option value="platform">Platform / Portal</option>
+                            <option value="mediacontent">AI Media & Content</option>
+                            <option value="branding">Branding</option>
+                            <option value="consultation">IT Consulting</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="message-comment mb-3">
+                    <div class="d-flex flex-column gap-1">
+                        <label for="message">Message</label>
+                        <textarea name="comment" id="comment" rows="3"
+                            placeholder="Brief description of you project"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="agree-checkbox d-flex justify-content-start gap-3 mb-3">
+                    <div class="d-flex justify-content-center align-items-start gap-1">
+                        <input type="checkbox" name="checkbox" id="checkbox" class="mt-1">
+                        <p class="form-agree-note">I agree to the Privacy Policy and Terms and Conditions. My data will
+                            be
+                            used to respond to this
+                            inquiry.</p>
+                    </div>
+
+                </div>
+
+                <div class="form-submit-button mb-3">
+                    <button class="form-btn" type="submit">Send Inquiry</button>
+                </div>
+
+                <div class="final-msg d-flex justify-content-center align-items-center">
+                    <p> We respond within 24 hours · No spam, ever</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+      <div class="hamburger-wrapper">
+        <div class="hamburger-block">
+
+            <div class="container">
+
+                <div class="hamburger-close">
+                    <i class="bi bi-x ham-close-btn"></i>
+                </div>
+
+                <div class="menu-items">
+                    <div class="row d-flex justify-content-center align-items-center">
+
+                        <div class="menu-items-images col-md-4">
+                            <img src="assets/menu-home.webp" alt="" class="ham-images-invi hamburger-menu-home-img">
+                            <img src="assets/about-hero-v2.webp" alt=""
+                                class="ham-images-invi hamburger-menu-about-img">
+                            <img src="assets/menu-portfolio.webp" alt=""
+                                class="ham-images-invi hamburger-menu-portfolio-img">
+                            <img src="assets/menu-case-studies.webp" alt=""
+                                class="ham-images-invi hamburger-menu-case-studies-img">
+                            <img src="assets/hero-studio-desktop-v1.webp" alt=""
+                                class="ham-images-invi hamburger-menu-demo-img">
+                            <img src="assets/menu-contact.webp" alt=""
+                                class="ham-images-invi hamburger-menu-contact-img">
+                        </div>
+
+                        <div class="menu-items-list col-md-8">
+
+                            <div class="home ham-menu-items-list">
+                                <span>01</span>
+                                <span>
+                                    <a href="./index.html" class="hamburger-menu-home ham-menu-list">Home</a>
+                                </span>
+                            </div>
+
+                            <div class="about ham-menu-items-list">
+                                <span>02</span>
+                                <span>
+                                    <a href="./about.html" class="hamburger-menu-about ham-menu-list">About</a>
+                                </span>
+                            </div>
+
+                            <div class="portfolio ham-menu-items-list">
+                                <span>03</span>
+                                <span>
+                                    <a href="./portfolio.html" class="hamburger-menu-portfolio ham-menu-list">Portfolio</a>
+                                </span>
+                            </div>
+
+                            <div class="case-studies ham-menu-items-list">
+                                <span>04</span>
+                                <span>
+                                    <a href="./case-studies.html" class="hamburger-menu-case-studies ham-menu-list">Case
+                                        Studies</a>
+                                </span>
+                            </div>
+
+                            <div class="demo ham-menu-items-list">
+                                <span>05</span>
+                                <span>
+                                    <a href="./demo.html" class="hamburger-menu-demo ham-menu-list">Demo</a>
+                                </span>
+                            </div>
+
+                            <div class="contact ham-menu-items-list">
+                                <span>06</span>
+                                <span>
+                                    <a href="./contact.html" class="hamburger-menu-contact ham-menu-list">Contact</a>
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 hamburger-footer">
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <div>
+                                    <div class="mb-2 "> <a href="" class="ham-contact-links">info@lorolabs.ai</a></div>
+                                    <div class="mb-2"> <a href="" class="ham-contact-links">+63 960 277 8783</a></div>
+
+                                    <div class="d-flex gap-2">
+                                        <i class="bi bi-facebook ham-icons"></i>
+                                        <i class="bi bi-instagram ham-icons"></i>
+                                        <i class="bi bi-tiktok ham-icons"></i>
+                                        <i class="bi bi-linkedin ham-icons"></i>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <button class="ham-btn" type="submit">
+                                        <span>Talk to the studio </span>
+                                        <span><i class="bi bi-arrow-up-right ham-btn-arrow"></i></span>
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+    <div id="header"></div>
+
+    <main class="pricing-page">
+
+        <!-- PRICING HERO-->
+
+        <section class="pricing-hero d-flex flex-column justify-content-center align-items-center">
+            <div class="container text-start">
+
+                <div class="pricing-hero-inner px-2 px-lg-5 mx-2 mx-lg-5">
+
+                    <p class="about-main-uppercase animate fade-up">
+                        Swift, Spark, and Sync pricing
+                    </p>
+
+                    <h1 class="pricing-main-heading animate fade-up delay-1">
+                        Clear plans.
+                        <span>Two ways to pay.</span>
+                    </h1>
+
+                    <p class="pricing-main-description animate fade-up delay-2">
+                        Choose Swift for a managed business website, Spark for a
+                        managed online store, or Sync for a custom system.
+                        Swift and Spark have annual prepaid and installment choices.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SWIFT -->
+
+        <section class="pricing-product-section">
+
+            <div class="container">
+                <div class="px-2 px-lg-5 mx-2 mx-lg-5">
+                    <div class="pricing-product-header animate fade-up">
+
+                        <div>
+                            <p class="pricing-eyebrow">
+                                Loro Swift
+                            </p>
+
+                            <h2>
+                                Managed business website
+                            </h2>
+
+                            <p>
+                                For an established business that needs a polished
+                                website without managing the technical work itself.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="pricing-plans-grid">
+
+                        <!-- ANNUAL -->
+                        <article class="pricing-plan-card pricing-featured animate fade-up" data-border="#F92C53">
+
+                            <div class="pricing-plan-top">
+
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h3>
+                                        Annual prepaid
+                                    </h3>
+
+                                    <span class="pricing-plan-label" data-bg="#F92C5316" data-color="#F92C53">
+                                        Best first-year price
+                                    </span>
+
+                                </div>
+
+
+
+                                <div class="pricing-amount" data-color="#F92C53">
+                                    ₱34,999
+                                </div>
+
+                                <p class="pricing-period">
+                                    One payment for the first 12 months
+                                </p>
+
+                                <p class="pricing-saving">
+                                    Save ₱8,988 compared with installment.
+                                </p>
+
+                            </div>
+
+                            <a href="#contact" class="pricing-button popup-form-opener" data-bg="#F92C53">
+                                <span>Choose annual prepaid</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+
+                        </article>
+
+
+                        <!-- INSTALLMENT -->
+                        <article class="pricing-plan-card animate fade-up delay-1">
+
+                            <div class="pricing-plan-top">
+
+                                <div class="d-flex justify-content-between align-items-start">
+
+                                    <h3>
+                                        Installment
+                                    </h3>
+                                    <span class="pricing-plan-label" data-bg="#F92C5316" data-color="#F92C53">
+                                        Lower first payment
+                                    </span>
+
+                                </div>
+
+
+                                <div class="pricing-amount" data-color="#F92C53">
+                                    ₱19,999
+                                </div>
+
+                                <p class="pricing-period">
+                                    Upfront + ₱1,999/month for 12 months
+                                </p>
+
+                                <p class="pricing-total">
+                                    ₱43,987 total for the first 12 months.
+                                </p>
+
+                            </div>
+
+                            <a href="#contact" class="pricing-button pricing-button-outline popup-form-opener"
+                                data-bg="#F92C53">
+                                <span>Choose installment</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- SWIFT FEATURES -->
+                    <div class="pricing-included animate fade-up">
+
+                        <div class="pricing-included-heading">
+
+                            <p class="pricing-eyebrow mb-0" data-color="#F92C53">
+                                Included in both choices
+                            </p>
+
+                            <p class="mb-0">
+                                The service is the same. Only the payment schedule and first-year total change.
+                            </p>
+
+                        </div>
+
+
+                        <div class="pricing-features-grid">
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#F92C5316" data-color="#F92C53"></i>
+                                <span>Choice of a Loro Swift website design</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#F92C5316" data-color="#F92C53"></i>
+                                <span>Adapted to your logo, colors, content, and imagery</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#F92C5316" data-color="#F92C53"></i>
+                                <span>Up to 7 standard pages</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#F92C5316" data-color="#F92C53"></i>
+                                <span>Mobile-first website build</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#F92C5316" data-color="#F92C53"></i>
+                                <span>Inquiry forms</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#F92C5316" data-color="#F92C53"></i>
+                                <span>Basic SEO and analytics setup</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#F92C5316" data-color="#F92C53"></i>
+                                <span>Hosting, SSL, monitoring, and routine maintenance</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#F92C5316" data-color="#F92C53"></i>
+                                <span>1 managed service hour every month for website changes</span>
+                            </div>
+
+                        </div>
+
+                        <p class="pricing-note">
+                            Completely custom design, new systems, portals, e-commerce,
+                            advanced integrations, and major features require a separate quote.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!-- SPARK -->
+
+        <section class="pricing-product-section pricing-spark-section">
+
+            <div class="container">
+
+                <div class="px-2 px-lg-5 mx-2 mx-lg-5">
+
+                    <div class="pricing-product-header animate fade-up">
+
+                        <div>
+                            <p class="pricing-eyebrow">
+                                Loro Spark Start
+                            </p>
+
+                            <h2>
+                                Managed online store
+                            </h2>
+
+                            <p>
+                                For an established product business with complete content
+                                and up to 20 ready launch products.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="pricing-plans-grid">
+
+                        <!-- ANNUAL -->
+                        <article class="pricing-plan-card pricing-featured animate fade-up" data-border="#eeab21">
+
+                            <div class="pricing-plan-top">
+
+                                <div class="d-flex justify-content-between align-items-start">
+
+                                    <h3>
+                                        Annual prepaid
+                                    </h3>
+
+                                    <span class="pricing-plan-label" data-bg="#EEAB2116" data-color="#EEAB21">
+                                        Best first-year price
+                                    </span>
+
+                                </div>
+
+
+
+                                <div class="pricing-amount" data-color="#EEAB21">
+                                    ₱64,999
+                                </div>
+
+                                <p class="pricing-period">
+                                    One payment for the first 12 months
+                                </p>
+
+                                <p class="pricing-saving">
+                                    Save ₱14,988 compared with installment.
+                                </p>
+
+                            </div>
+
+                            <a href="#contact" class="pricing-button popup-form-opener" data-bg="#EEAB21">
+                                <span>Choose annual prepaid</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+
+                        </article>
+
+
+                        <!-- INSTALLMENT -->
+                        <article class="pricing-plan-card animate fade-up delay-1">
+
+                            <div class="pricing-plan-top">
+
+                                <div class="d-flex justify-content-between align-items-start">
+
+                                    <h3>
+                                        Installment
+                                    </h3>
+
+                                    <span class="pricing-plan-label" data-bg="#EEAB2116" data-color="#EEAB21">
+                                        Lower first payment
+                                    </span>
+
+                                </div>
+
+
+                                <div class="pricing-amount" data-color="#EEAB21">
+                                    ₱19,999
+                                </div>
+
+                                <p class="pricing-period">
+                                    Upfront + ₱4,999/month for 12 months
+                                </p>
+
+                                <p class="pricing-total">
+                                    ₱79,987 total for the first 12 months.
+                                </p>
+
+                            </div>
+
+                            <a href="#contact" class="pricing-button pricing-button-outline popup-form-opener"
+                                data-bg="#EEAB21">
+                                <span>Choose installment</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- SPARK FEATURES -->
+                    <div class="pricing-included animate fade-up">
+
+                        <div class="pricing-included-heading">
+
+                            <p class="pricing-eyebrow" data-color="#EEAB21">
+                                Included in both choices
+                            </p>
+
+                            <h3>
+                                The service is the same.
+                            </h3>
+
+                            <p>
+                                Only the payment schedule and first-year total change.
+                            </p>
+
+                        </div>
+
+
+                        <div class="pricing-features-grid">
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#EEAB2116" data-color="#EEAB21"></i>
+                                <span>Choice of a Loro Spark storefront design</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#EEAB2116" data-color="#EEAB21"></i>
+                                <span>Adapted to your logo, colors, content, and imagery</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#EEAB2116" data-color="#EEAB21"></i>
+                                <span>Up to 20 ready launch products</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#EEAB2116" data-color="#EEAB21"></i>
+                                <span>Standard product variants and inventory setup</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#EEAB2116" data-color="#EEAB21"></i>
+                                <span>Cart, checkout, and 1 payment gateway</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#EEAB2116" data-color="#EEAB21"></i>
+                                <span>Order-management dashboard</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#EEAB2116" data-color="#EEAB21"></i>
+                                <span>1 standard delivery setup</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#EEAB2116" data-color="#EEAB21"></i>
+                                <span>Customer notices and basic analytics</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#EEAB2116" data-color="#EEAB21"></i>
+                                <span>Launch testing and team orientation</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#EEAB2116" data-color="#EEAB21"></i>
+                                <span>Hosting, monitoring, maintenance, and routine technical care</span>
+                            </div>
+
+                            <div class="pricing-feature">
+                                <i class="bi bi-check2" data-bg="#EEAB2116" data-color="#EEAB21"></i>
+                                <span>1 managed update every month within 1 service hour</span>
+                            </div>
+
+                        </div>
+
+                        <p class="pricing-note">
+                            More than 20 products, migrations, custom workflows, subscriptions,
+                            automation, integrations, product writing, and photo cleanup require
+                            a separate Spark Growth quote. Third-party charges are separate.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!-- SYNC -->
+
+        <section class="pricing-product-section pricing-system-portals">
+
+            <div class="container">
+
+                <div class="px-2 px-lg-5 mx-2 mx-lg-5">
+
+                    <div class="pricing-product-header animate fade-up">
+
+                        <div>
+                            <p class="pricing-eyebrow">
+                                Loro Spark Start
+                            </p>
+
+                            <h2>
+                                Managed online store
+                            </h2>
+
+                            <p>
+                                For an established product business with complete content
+                                and up to 20 ready launch products.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="pricing-plans-grid">
+
+                        <!-- ANNUAL -->
+                        <article class="pricing-plan-card pricing-featured animate fade-up" data-border="#04a38c73">
+
+                            <div class="pricing-plan-top">
+
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h3>
+                                        Annual prepaid
+                                    </h3>
+
+                                    <span class="pricing-plan-label" data-bg="#04a38c1a" data-color="#04a38c">
+                                        Best first-year price
+                                    </span>
+
+                                </div>
+
+
+                                <div class="pricing-amount" data-color="#04a38c">
+                                    From ₱30,000
+                                </div>
+
+                                <p class="pricing-period">
+                                    The Blueprint defines the workflow and gives the team enough detail to price the
+                                    complete build.
+                                </p>
+
+
+                            </div>
+
+                            <a href="#contact" class="pricing-button popup-form-opener" data-bg="#04a38c">
+                                <span>Choose annual prepaid</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+
+                        </article>
+
+
+                        <!-- INSTALLMENT -->
+                        <article class="pricing-plan-card animate fade-up delay-1">
+
+                            <div class="pricing-plan-top mb-0">
+
+                                <p class="pricing-eyebrow pricing-eyebrow-less-gap mb-0" data-color="#04a38c">
+                                    Blueprint may include
+                                </p>
+
+                                <p class="pricing-period pricing-period-less-gap mb-0">
+                                    The exact Blueprint scope is confirmed before work starts.
+                                </p>
+
+                            </div>
+
+                            <div class="pricing-features-grid pricing-features-grid-less-gap">
+
+                                <div class="pricing-feature">
+                                    <i class="bi bi-check2" data-bg="#04a38c1a" data-color="#04a38c"></i>
+                                    <span>Workflow map</span>
+                                </div>
+
+                                <div class="pricing-feature">
+                                    <i class="bi bi-check2" data-bg="#04a38c1a" data-color="#04a38c"></i>
+                                    <span>Users, roles, and permissions</span>
+                                </div>
+
+                                <div class="pricing-feature">
+                                    <i class="bi bi-check2" data-bg="#04a38c1a" data-color="#04a38c"></i>
+                                    <span>Screens and portals</span>
+                                </div>
+
+                                <div class="pricing-feature">
+                                    <i class="bi bi-check2" data-bg="#04a38c1a" data-color="#04a38c"></i>
+                                    <span>Data and reports</span>
+                                </div>
+
+                                <div class="pricing-feature">
+                                    <i class="bi bi-check2" data-bg="#04a38c1a" data-color="#04a38c"></i>
+                                    <span>Required integrations</span>
+                                </div>
+
+                                <div class="pricing-feature">
+                                    <i class="bi bi-check2" data-bg="#04a38c1a" data-color="#04a38c"></i>
+                                    <span>Phased delivery plan</span>
+                                </div>
+
+                            </div>
+
+                            <p class="pricing-saving pricing-saving-less-gap">
+                                Complete build: priced after the Blueprint
+                            </p>
+                            <p class="pricing-note pricing-note-less-gap">
+                                More than 20 products, migrations, custom workflows, subscriptions,
+                                automation, integrations, product writing, and photo cleanup require
+                                a separate Spark Growth quote. Third-party charges are separate.
+                            </p>
+
+
+                        </article>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- COMPLETE HANDOVER -->
+
+        <section class="pricing-handover-section">
+
+            <div class="container">
+
+                <div class="px-2 px-lg-5 mx-2 mx-lg-5">
+
+                    <div class="pricing-handover animate fade-up">
+
+                        <div>
+
+                            <p class="pricing-eyebrow" style="color:#fff9;">
+                                Complete handover
+                            </p>
+
+                            <h2 class="text-light">
+                                Own the complete system after your managed year.
+                            </h2>
+
+                        </div>
+
+
+                        <div class="pricing-handover-price">
+                            <span class="text-light">
+                                ₱19,999
+                            </span>
+
+                            <p class="pricing-saving pricing-saving-less-gap text-light">
+                                Available for Swift or Spark after 12 months
+                                and full payment.
+                            </p>
+                            <p style="color:#fff9;">
+                                Includes the current source files, the available website
+                                or store data export, and one handover session. Hosting, security, maintenance, and
+                                third-party services
+                                become the client's responsibility after handover.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!-- FAQ -->
+
+        <section class="pricing-faq-section">
+
+            <div class="container">
+
+                <div class="px-2 px-lg-5 mx-2 mx-lg-5">
+
+                    <div class="pricing-faq-heading animate fade-up">
+
+                        <p class="pricing-eyebrow">
+                            Questions before you choose
+                        </p>
+
+                        <h2>
+                            Ownership and payments,
+                            explained plainly.
+                        </h2>
+
+                        <p>
+                            These rules apply to the annual prepaid
+                            and installment choices.
+                        </p>
+
+                    </div>
+
+
+                    <div class="pricing-faq-list">
+
+                        <!-- FAQ 01 -->
+                        <div class="pricing-faq-item active animate fade-up">
+
+                            <button class="pricing-faq-question" type="button">
+
+                                <span>
+                                    Do I own my website or online store?
+                                </span>
+
+                                <i class="bi bi-plus"></i>
+
+                            </button>
+
+                            <div class="pricing-faq-answer">
+
+                                <p>
+                                    You always own your business name, logo, written content,
+                                    product information, customer information, and other
+                                    materials you supplied. Loro manages the underlying system
+                                    during the 12-month service period. Complete system ownership
+                                    transfers only when you complete the handover.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- FAQ 02 -->
+                        <div class="pricing-faq-item animate fade-up">
+
+                            <button class="pricing-faq-question" type="button">
+
+                                <span>
+                                    When can I request the complete handover?
+                                </span>
+
+                                <i class="bi bi-plus"></i>
+
+                            </button>
+
+                            <div class="pricing-faq-answer">
+
+                                <p>
+                                    After the 12-month managed-service period and after every
+                                    required payment has been completed. Annual prepayment does
+                                    not create an immediate handover because it pays for the
+                                    full managed year.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- FAQ 03 -->
+                        <div class="pricing-faq-item animate fade-up">
+
+                            <button class="pricing-faq-question" type="button">
+
+                                <span>
+                                    How much is the complete handover?
+                                </span>
+
+                                <i class="bi bi-plus"></i>
+
+                            </button>
+
+                            <div class="pricing-faq-answer">
+
+                                <p>
+                                    The complete handover is ₱19,999 for either Loro Swift
+                                    or Loro Spark. This is separate from the annual prepaid
+                                    or installment price.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- FAQ 04 -->
+                        <div class="pricing-faq-item animate fade-up">
+
+                            <button class="pricing-faq-question" type="button">
+
+                                <span>
+                                    What is included in the handover?
+                                </span>
+
+                                <i class="bi bi-plus"></i>
+
+                            </button>
+
+                            <div class="pricing-faq-answer">
+
+                                <p>
+                                    The current project source files, the available website
+                                    or store data export, and one handover session. After
+                                    handover, you become responsible for hosting, infrastructure,
+                                    maintenance, security, and third-party services unless you
+                                    sign a new support agreement with Loro.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- FAQ 05 -->
+                        <div class="pricing-faq-item animate fade-up">
+
+                            <button class="pricing-faq-question" type="button">
+
+                                <span>
+                                    What does the monthly payment cover?
+                                </span>
+
+                                <i class="bi bi-plus"></i>
+
+                            </button>
+
+                            <div class="pricing-faq-answer">
+
+                                <p>
+                                    Swift is ₱1,999 per month and includes the installment
+                                    payment, hosting, SSL, monitoring, routine technical
+                                    maintenance, and 1 managed service hour. Spark is
+                                    ₱4,999 per month and includes the installment payment,
+                                    store hosting and monitoring, routine technical care,
+                                    and 1 managed update within 1 service hour.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- FAQ 06 -->
+                        <div class="pricing-faq-item animate fade-up">
+
+                            <button class="pricing-faq-question" type="button">
+
+                                <span>
+                                    Are payment-gateway and other third-party charges included?
+                                </span>
+
+                                <i class="bi bi-plus"></i>
+
+                            </button>
+
+                            <div class="pricing-faq-answer">
+
+                                <p>
+                                    No. Payment-gateway, transaction, messaging, delivery,
+                                    marketplace, and other third-party charges are paid
+                                    separately by the client.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- FAQ 07 -->
+                        <div class="pricing-faq-item animate fade-up">
+
+                            <button class="pricing-faq-question" type="button">
+
+                                <span>
+                                    Does Loro process orders or deliver products for Spark clients?
+                                </span>
+
+                                <i class="bi bi-plus"></i>
+
+                            </button>
+
+                            <div class="pricing-faq-answer">
+
+                                <p>
+                                    No. Loro builds and manages the online store system.
+                                    The client handles orders, customer service, inventory
+                                    decisions, packing, delivery, refunds, and fulfillment.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- FAQ 08 -->
+                        <div class="pricing-faq-item animate fade-up">
+
+                            <button class="pricing-faq-question" type="button">
+
+                                <span>
+                                    Why choose Loro instead of building it myself?
+                                </span>
+
+                                <i class="bi bi-plus"></i>
+
+                            </button>
+
+                            <div class="pricing-faq-answer">
+
+                                <p>
+                                    Loro provides one in-house team for design, development,
+                                    launch, hosting, monitoring, maintenance, and routine
+                                    changes. The website or store is adapted to your brand,
+                                    and the service continues after launch.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- FAQ 09 -->
+                        <div class="pricing-faq-item animate fade-up">
+
+                            <button class="pricing-faq-question" type="button">
+
+                                <span>
+                                    Does Loro Sync use the same annual or installment pricing?
+                                </span>
+
+                                <i class="bi bi-plus"></i>
+
+                            </button>
+
+                            <div class="pricing-faq-answer">
+
+                                <p>
+                                    No. Loro Sync begins with a System Blueprint from ₱30,000.
+                                    The complete system build and any optional managed support
+                                    are priced separately after the workflow and requirements
+                                    are defined.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!-- FINAL CTA -->
+
+        <section class="pricing-final-cta">
+
+            <div class="container">
+
+                <div class="px-2 px-lg-5 mx-2 mx-lg-5">
+
+                    <div class="pricing-final-cta-inner animate fade-up">
+
+                        <h2>
+                            Not sure whether you need
+                            <span>Swift, Spark, or <span class="d-block d-md-inline">Sync?</span></span>
+                        </h2>
+
+                        <p>
+                            The consultation is free. We will explain the scope
+                            and both payment choices clearly.
+                        </p>
+
+                        <button class="pricing-final-button popup-form-opener">
+                            <span>Book a free 20-minute consultation</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <div id="footer"></div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.8/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="horizontal.js"></script>
+    <script src="animation.js"></script>
+    <script src="pricing.js"></script>
+</body>
+
+</html>
