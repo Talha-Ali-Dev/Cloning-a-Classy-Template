@@ -9,60 +9,35 @@
 // ==================================================
 
 const portfolioImages = [
-  { src: "https://lorolabs.ai/portfolio/03.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/04.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/02.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/10.webp", alt: "" },
+  { src: "https://w0.peakpx.com/wallpaper/552/380/HD-wallpaper-dark-woods-aesthetic-ultra-nature-forests-dark-landscape-scenery-trees-morning-forest-cloud-mist-foggy-woods-scenic-wilderness-yosemite-gloomy-unitedstates.jpg", alt: "" },
+  { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfZpalP2w5rInoPx5OadGe4j32HN4hkqodjF3nkOXSbQ&s=10", alt: "" },
+  { src: "https://w0.peakpx.com/wallpaper/694/487/HD-wallpaper-beautiful-sunset-sunset-nature-sky-dark.jpg", alt: "" },
+  { src: "https://static.vecteezy.com/system/resources/thumbnails/068/788/899/small/a-moonlit-mountain-meadow-photo.jpeg", alt: "" },
 
   {
-    src: "https://lorolabs.ai/case-studies/verra-mariya/portfolio-hero.webp",
+    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5DsUoDyx0z39ktcqqjJJ7dmICeR8hWIC5zoLBkpRRo4CWBiicom_TtUMq&s=10",
     alt: "Verra Mariya jewelry storefront",
   },
 
-  { src: "https://lorolabs.ai/portfolio/16.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/22.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/28.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/34.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/40.webp", alt: "" },
+  { src: "https://wallpaperaccess.com/full/432525.jpg", alt: "" },
+  { src: "https://static.vecteezy.com/system/resources/previews/075/471/892/non_2x/nature-wallpaper-nature-landscape-moonlit-ocean-night-scene-over-calm-dark-water-free-photo.jpg", alt: "" },
+  { src: "https://images.pexels.com/photos/20337722/pexels-photo-20337722/free-photo-of-footpath-in-dark-green-forest.jpeg", alt: "" },
+  { src: "https://static.vecteezy.com/system/resources/thumbnails/077/778/518/small/mysterious-forest-path-with-tall-trees-misty-atmosphere-and-shadows-on-the-ground-at-dawn-or-dusk-pinnacle-scene-serene-pinn-photo.jpg", alt: "" },
+  { src: "https://t3.ftcdn.net/jpg/01/82/41/10/360_F_182411045_y60gNV2cJ9BnQe6Ipi4uAWufZAywT6sH.jpg", alt: "" },
 
-  { src: "https://lorolabs.ai/portfolio/25.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/41.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/33.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/05.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/08.webp", alt: "" },
+  { src: "https://img.magnific.com/free-photo/los-angeles-downtown-buildings-night_649448-298.jpg?semt=ais_hybrid&w=740&q=80", alt: "" },
+  { src: "https://media.istockphoto.com/id/635811232/photo/hong-kong-aerial-by-night.jpg?s=612x612&w=0&k=20&c=ze8gWAmRjIHKT4lcDlTYpfmbHTsIX2VpfSQ7g2AvEIA=", alt: "" },
+  { src: "https://media.istockphoto.com/id/497900492/photo/brisbane-at-night.jpg?s=612x612&w=0&k=20&c=5wg9-Au4kCA2SpymXQ7DbD9MKT-p0-AcvIe5Vn6-LKk=", alt: "" },
+  { src: "https://img.magnific.com/free-photo/night-view-victoria-harbor-hong-kong_53876-146261.jpg?semt=ais_hybrid&w=740&q=80", alt: "" },
+  { src: "https://images.unsplash.com/photo-1732984420521-ab1a2dca618b?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "" },
 
-  { src: "https://lorolabs.ai/portfolio/23.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/21.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/07.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/06.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/15.webp", alt: "" },
+  { src: "https://images.unsplash.com/photo-1714722804938-18717a9dc6dc?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "" },
+  { src: "https://i.pinimg.com/736x/e9/09/79/e909795ea45014bd84fa34290dda7f42.jpg", alt: "" },
+  { src: "https://i0.pickpik.com/photos/82/423/677/city-building-night-view-night-972312bce4a5e3faeb779be4a44b1c76.jpg", alt: "" },
+  { src: "https://static.vecteezy.com/system/resources/thumbnails/056/162/843/small/a-city-at-night-with-tall-buildings-lit-up-free-photo.jpg", alt: "" },
+  { src: "https://media.istockphoto.com/id/1127251935/photo/glass-window-with-glowing-crowded-city.jpg?s=612x612&w=0&k=20&c=uDLHiogKBY0KrxnbvfQQBMxBAR0llu4CxfF6_9QAYWI=", alt: "" },
 
-  { src: "https://lorolabs.ai/portfolio/13.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/29.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/35.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/42.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/12.webp", alt: "" },
-
-  { src: "https://lorolabs.ai/portfolio/17.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/38.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/20.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/31.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/30.webp", alt: "" },
-
-  { src: "https://lorolabs.ai/portfolio/14.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/18.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/36.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/39.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/24.webp", alt: "" },
-
-  { src: "https://lorolabs.ai/portfolio/43.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/19.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/27.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/32.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/37.webp", alt: "" },
-
-  { src: "https://lorolabs.ai/portfolio/11.webp", alt: "" },
-  { src: "https://lorolabs.ai/portfolio/26.webp", alt: "" },
+  { src: "https://img.magnific.com/free-photo/skyline-night-view-city-urban-building_1150-2360.jpg?semt=ais_hybrid&w=740&q=80", alt: "" },
 ];
 
 
